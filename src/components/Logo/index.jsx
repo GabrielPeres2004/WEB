@@ -2,7 +2,7 @@ import { Container } from "./style";
 
 export function Logo(){
     return(
-        <Container>
+        <Container id="Logo">
             <img src="/assets/Polygon.jpg" alt="Logo" />
 
             <h1>

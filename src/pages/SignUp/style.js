@@ -5,14 +5,14 @@ import { LAYOUTBREAKPOINTS } from "../../styles/layoutBreakpoints"
 export const Container = styled.div`
 display: flex;
 flex-direction: column;
-align-items: flex-end;
-justify-content: center;
+align-items: center;
+justify-content: flex-start;
 
 width: 100%;
 height: 100vh;
 
 padding: 2rem;
-margin-top: 4rem;
+margin-top: 5.2rem;
 
 @media (min-width: ${LAYOUTBREAKPOINTS.MD}) {
     display: flex;

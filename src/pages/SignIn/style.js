@@ -6,13 +6,13 @@ export const Container = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: center;
+justify-content: flex-start;
 
 width: 100%;
 height: 100vh;
 
 padding: 2rem;
-margin-top: 2rem;
+margin-top: 5.2rem;
 
 @media (min-width: ${LAYOUTBREAKPOINTS.MD}) {
     display: flex;
@@ -39,7 +39,6 @@ align-items: center;
 width: 100%;
 height: max-content;
 
-/* border: 1px solid white; */
 border-radius: 1rem;
 
 margin-top: 2rem;
